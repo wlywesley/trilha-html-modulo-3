@@ -5,12 +5,26 @@ body, html {
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
+p {font-size: 25px;}
+figure img { width: 100%; }
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+strong{
+    font-size: 22px;
+}
 .bar {
     background-color: #f9f9fb;
     padding:15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
 }
+
 .content {
     max-width: 1440px;
     margin: auto;
@@ -22,7 +36,7 @@ a { color:blue; text-decoration: none;}
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.footer {
+footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
 }
